@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CopyBoard</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="brand">CopyBoard</div>
+      <div class="controls">
+        <button class="btn" id="addBtn" title="Add a new box (Alt+N)">Add box</button>
+        <button class="btn" id="clearAllBtn" title="Remove all boxes">Clear all</button>
+        <label class="toggle" title="Click a card to copy its text">
+          <input id="oneClick" type="checkbox" checked>
+          <span>Click card to copy</span>
+        </label>
+        <div class="status" id="saveStatus">Saved</div>
+      </div>
+    </div>
+
+    <div id="grid" class="grid" aria-live="polite"></div>
+
+    <div class="footer">
+      <div>Short notes: 1–2 sentences each. Tip: <kbd>Alt</kbd>+<kbd>N</kbd> adds a box. Click a card (outside the text area) to copy.</div>
+      <div id="lastSaved"></div>
+    </div>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
