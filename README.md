@@ -11,7 +11,7 @@ A single-page tool for copying notes to clipboard. Click a card to copy its text
 
 ## Usage
 1. Open `index.html` (or the split version: `index.html`, `main.css`, `script.js`).
-2. Paste/type 1–2 sentence notes into cards.
+2. Paste/type notes into cards.
 3. Click anywhere on a card (outside the textarea) to copy that card’s text.
 
 ## Storage & Privacy
