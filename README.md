@@ -4,7 +4,7 @@ A single-page tool for copying notes to clipboard. Click a card to copy its text
 ## Features
 - Separate cards for each note
 - Click card to copy (plus a Copy button on each card)
-- Add / Move cards up or down / Delete / Clear all
+- Add / Move cards up or down / Delete / Clear all / Copy all
 - Autosave to `localStorage` (restores after refresh/crash)
 - Keyboard: Alt+N adds a new card
 - No build or dependencies; works offline

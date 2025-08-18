@@ -8,6 +8,11 @@
   const grid = document.getElementById('grid');           // container for notes
   const addBtn = document.getElementById('addBtn');       // add new note button
   const clearAllBtn = document.getElementById('clearAllBtn'); // clear all notes
+  const copyAllBtn = document.getElementById('copyAllBtn');
+    copyAllBtn.addEventListener('click', ()=>{
+    const allText = notes.map(n => n.text).join('\n\n'); // blank line between notes
+    doCopy(allText);
+    }); 
   const statusEl = document.getElementById('saveStatus'); // shows "Saved" / "Saving…"
   const lastSavedEl = document.getElementById('lastSaved'); // shows last saved time
   const toast = document.getElementById('toast');         // tiny popup text
