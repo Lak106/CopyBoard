@@ -17,3 +17,12 @@ A single-page tool for copying notes to clipboard. Click a card to copy its text
 ## Storage & Privacy
 - Data is saved locally under the key `quickcopy.cards.v1`.
 - Nothing is uploaded or synced; private windows may clear data on close.
+  
+## Future Features
+- Tabs
+- Groups
+- Labels
+- Light mode and Dark mode
+- Code syntax highlighting
+- Save notes to device
+- Sharable link
